@@ -7,3 +7,4 @@ FOR /L %%i IN (1,1,%iteration%) DO (
   git add . && git commit --amend --no-edit && git push -f
   timeout /t 3
 )
+REM test
